@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "lb_fantasy_soccer": {
+    "host": "",
+    "port": 0,
+    "url": "postgres://garmaster@localhost/lb_fantasy_soccer",
+    "database": "",
+    "password": "",
+    "name": "lb_fantasy_soccer",
+    "user": "",
+    "connector": "postgresql"
   }
 }

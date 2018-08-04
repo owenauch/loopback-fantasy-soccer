@@ -34,5 +34,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Stat": {
+    "dataSource": "lb_fantasy_soccer",
+    "public": true
   }
 }

@@ -1,0 +1,95 @@
+{
+  "name": "Stat",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "yellowCards": {
+      "type": "number"
+    },
+    "yellowRedCards": {
+      "type": "number"
+    },
+    "redCards": {
+      "type": "number"
+    },
+    "goals": {
+      "type": "number"
+    },
+    "assists": {
+      "type": "number"
+    },
+    "shots": {
+      "type": "number"
+    },
+    "shotsOnGoal": {
+      "type": "number"
+    },
+    "interceptions": {
+      "type": "number"
+    },
+    "crosses": {
+      "type": "number"
+    },
+    "accurateCrosses": {
+      "type": "number"
+    },
+    "chancesCreated": {
+      "type": "number"
+    },
+    "tacklesWon": {
+      "type": "number"
+    },
+    "passes": {
+      "type": "number"
+    },
+    "penaltyKickGoals": {
+      "type": "number"
+    },
+    "goalsConceded": {
+      "type": "number"
+    },
+    "cleanSheets": {
+      "type": "number"
+    },
+    "saves": {
+      "type": "number"
+    },
+    "accurateKeeperSweeper": {
+      "type": "number"
+    },
+    "penaltyConceded": {
+      "type": "number"
+    },
+    "effectiveClearances": {
+      "type": "number"
+    },
+    "week": {
+      "type": "number",
+      "required": true
+    },
+    "season": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
