@@ -6,6 +6,6 @@ module.exports = function(server) {
   router.get('/', server.loopback.status());
   server.use(router);
 
-  server.dataSources.lb_fantasy_soccer.automigrate();
-   console.log("Performed automigration.");
+  server.dataSources.lb_fantasy_soccer.autoupdate();
+   console.log("Performed autoupdate.");
 };
